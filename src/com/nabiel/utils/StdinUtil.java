@@ -2,7 +2,6 @@ package com.nabiel.utils;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.CharBuffer;
 
 public class StdinUtil {
 
@@ -28,7 +27,6 @@ public class StdinUtil {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println(returnValue);
         return Character.toUpperCase(returnValue);
     }
 

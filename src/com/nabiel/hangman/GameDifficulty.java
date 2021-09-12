@@ -1,5 +1,5 @@
 package com.nabiel.hangman;
 
-public enum GameLevel {
+public enum GameDifficulty {
     EASY, MEDIUM, HARD,
 }
