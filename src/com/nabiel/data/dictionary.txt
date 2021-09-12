@@ -1,9 +1,10 @@
-Cats
-Bird
-Ant
-Elephant
-Lion
-Tiger
-Dog
-Cow
-Goat
+Animals, Sports
+Cats, American football
+Bird, Australian rules
+Ant, Diving
+Elephant, fencing
+Lion, golf
+Tiger, Football
+Dog, hockey
+Cow, judo
+Goat, karate

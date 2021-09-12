@@ -1,5 +1,7 @@
 package com.nabiel.utils;
 
+import com.nabiel.hangman.GameCategory;
+
 public class GameUtil {
 
     final public static int STOP_CHAR = 24; // Ctrl + X
@@ -23,9 +25,17 @@ public class GameUtil {
         System.out.println("Bye, Sampai ketemu lagi");
     }
 
-    public static void printQuestion(String question) {
-        System.out.printf("Hint : Ada %d karakter\n", question.length());
-        System.out.println("Tebak ini : " + question + "\n");
+    public static void printQuestion(String question, GameCategory category) {
+        System.out.printf("%-15s : Ada %d karakter\n", "Hint", question.length());
+        System.out.printf("%-15s : %s\n", "Topik", category.getCategoryString());
+        System.out.printf("%-15s : %s\n", "Tebak ini", question);
+    }
+
+    public static void askCategories() {
+        System.out.println("Kategori : ");
+        System.out.println("1. Animals");
+        System.out.println("2. Sports");
+        System.out.print("Pilih Kategori : ");
     }
 
     public static void wonMessage(String jawaban) {
